@@ -124,6 +124,3 @@ bind -s 'set completion-ignore-case on'
 
 # Start ssh-agent and prompt for password
 eval `ssh-agent` && ssh-add ~/.ssh/id_ed25519
-
-# Check for and install updates
-sudo apt update && sudo apt upgrade -y
